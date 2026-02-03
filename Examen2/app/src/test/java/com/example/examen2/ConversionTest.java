@@ -34,7 +34,7 @@ public class ConversionTest {
     // CONVERSIÓN DE HEXADECIMAL
     @Test
     public void convertir_hexadecimalADecimal() {
-        int resultado = Calculadora.convertirNumero("A", 3);
+        int resultado = Calculadora.convertirNumero("a", 2);
         assertEquals(10, resultado);
     }
 
